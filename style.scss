@@ -1,0 +1,32 @@
+// font variables
+$heading-font: "Poppins", sans-serif;
+$general-font: "Lato", sans-serif;
+
+// colour variables
+$error-colour: red;
+$success-colour: green;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: $general-font;
+}
+
+.valid {
+  border: 3px solid $success-colour;
+}
+
+.invalid {
+  border: 3px solid $error-colour;
+}
