@@ -1,4 +1,6 @@
 
+/* nology purple - #b929e3 */
+
 h1,
 h2,
 h3,
@@ -17,9 +19,10 @@ h6 {
 }
 
 main {
-  border: 4px #b929e3 solid;
+  border: 4px #444 solid;
   margin: 10px auto;
   width: 600px;
+  box-shadow: 10px 5px 5px #b785c7;
 }
 
 input, button {
